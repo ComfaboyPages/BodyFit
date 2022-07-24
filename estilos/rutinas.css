@@ -1,0 +1,130 @@
+*{
+    background-color:black;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#hedaer{
+    background-color:black;
+    outline:10px solid white;
+}
+#header-image{
+    width: 25%;
+    margin-top:10px;
+    margin-left: 40px;
+}
+#navbar{
+    background-color:black;
+    margin-left: 80px;
+    display: inline-block;
+    position: relative;
+    bottom:3.5em;
+}
+#nav-lista{
+    list-style-type: none;
+}
+#nav-lista-li{
+    background-color:black;
+    text-align:center;
+    margin-left:40px;
+    float: left;
+}
+#lista-a{
+    padding: 10px;
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+}
+#lista-a:hover{
+    padding: 10px;
+    border-radius: 45px;
+    background-color: #404040;
+    font-size: 25px;
+    text-decoration: none;
+    color:white;
+}
+/*-------------------------------------------------------------*/
+#main-tittle{
+    font-size: 60px;
+    margin-left: 30px;
+}
+#pecho{
+    margin-left: 60px;
+}
+#brazos{
+    margin-left: 60px;
+}
+#abdomen{
+    margin-left: 60px;
+}
+#espalda{
+    margin-left: 60px;
+}
+#piernas{
+    margin-left: 60px;
+}
+/*-------------------------------------------------------------*/
+#rutina-tittle{
+    font-size: 30px;
+}
+#rutina-description{
+    position: relative;
+    display: inline-block;
+    width:55%;
+    margin-left: 30px;
+}
+#s-subdescription{
+    font-size:20px;
+    margin-left: -15px;
+}
+#rutina-image-i{
+    position: relative;
+    width:30%;
+}
+@media screen and (max-width: 828px){
+    #hedaer{
+        background-color:black;
+    }
+    #header-image{
+        width:100%;
+        margin: 0;
+    }
+    #navbar{
+        display:none;
+    }
+    /*-------------------------------------------------------------*/
+    #main-tittle{
+        font-size: 40px;
+    }
+    #pecho{
+        margin-left: 20px;
+    }
+    #brazos{
+        margin-left: 20px;
+    }
+    #abdomen{
+        margin-left: 20px;
+    }
+    #espalda{
+        margin-left: 20px;
+    }
+    #piernas{
+        margin-left: 20px;
+    }
+    /*-------------------------------------------------------------*/
+    #rutina-tittle{
+        font-size: 30px;
+    }
+    #rutina-description{
+        position: relative;
+        bottom:20px;
+        margin-left: 30px;
+        width:80%;
+    }
+    #s-subdescription{
+        font-size:20px;
+        margin-left: -15px;
+    }
+    #rutina-image-i{
+        width:350px;
+    }
+}
